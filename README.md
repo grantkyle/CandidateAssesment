@@ -1,11 +1,11 @@
-#Conversion Interactive Candidate Test
+# Conversion Interactive Candidate Test
 
 ## instructions
 Please Build a landing page for a potential job seeker. We have included all the assets that you need inside 
 the IMG folder. Feel Free to use filler text or lorem ipsum for the content on the mockup file, we are really not
 focusing on that part of this assessment. Please clone or download this repository for the candidate assessment.
 
-###Rules
+### Rules
  - If you use a library (css/javascript) please explain why you chose it. 
  - Don't worry about Validating the form but please create the form with the proper action
  - Please make the landing page responsive.

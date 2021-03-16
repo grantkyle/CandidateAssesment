@@ -1,9 +1,11 @@
 # Conversion Interactive Candidate Test
 
-## instructions
-Please Build a landing page for a potential job seeker. We have included all the assets that you need inside 
+## Instructions
+Please build a landing page for a potential job seeker. We have included all the assets that you need inside 
 the IMG folder. Feel Free to use filler text or lorem ipsum for the content on the mockup file, we are really not
 focusing on that part of this assessment. Please clone or download this repository for the candidate assessment.
+If you make a pull request instead, please create a branch with your name and show your work there. The layout 
+does not have to be pixel perfect but get as close as you can.
 
 ### Rules
  - If you use a library (css/javascript) please explain why you chose it. 

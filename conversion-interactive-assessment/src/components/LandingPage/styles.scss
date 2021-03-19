@@ -1,0 +1,35 @@
+.hummer-landing-page__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 1200px;
+}
+
+.hummer-landing-page__rows {
+  flex: 1;
+  color: white;
+}
+
+.hummer-landing-page__hero {
+  background-image: url("../background/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+
+.hummer-landing-page__logo-container {
+    padding-top: 100px
+}
+
+.hummer-landing-page__hero-text {
+    padding-top:20px;
+ }
+
+.hummer-landing-page__quick-form-button {
+    margin-top: 20px;
+}
+
+.hummer-landing-page__cta {
+    background-color: white;
+}

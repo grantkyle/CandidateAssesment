@@ -7,7 +7,7 @@
 
 .hummer-landing-page__rows {
   flex: 1;
-  color: white;
+  color: #ffffff;
 }
 
 .hummer-landing-page__hero {
@@ -19,17 +19,109 @@
 }
 
 .hummer-landing-page__logo-container {
-    padding-top: 100px
+  padding-top: 100px;
 }
 
 .hummer-landing-page__hero-text {
-    padding-top:20px;
- }
+  padding-top: 20px;
+}
 
 .hummer-landing-page__quick-form-button {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .hummer-landing-page__cta {
-    background-color: white;
+  background-color: #ffffff;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.hummer-landing-page__cta-apply-now-container {
+  flex-basis: 50%;
+}
+.hummer-landing-page__cta-apply-now {
+  background-color: green;
+  height: 100px;
+}
+
+.hummer-landing-page__cta-text {
+  color: #8b0000;
+  margin: 15px 60px 0px 130px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 42px;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.hummer-landing-page__cta-text-container {
+  flex-basis: 50%;
+}
+
+.hummer-landing-page__cta-apply-now-button-row {
+  display: flex;
+  margin-top: 25px;
+}
+
+.hummer-landing-page__cta-apply-now-button-container {
+  width: 275px;
+  margin-right: 5px;
+}
+
+.hummer-landing-page__cta-phone-number-button-container {
+  width: 275px;
+}
+
+.hummer-landing-page__cta-apply-now-search-jobs-button-row {
+  margin-top: -15px;
+}
+
+.hummer-landing-page__cta-search-jobs-button-container {
+  width: 555px;
+}
+
+.hummer-landing-page__cta-apply-now-paragraph-row {
+}
+
+.hummer-landing-page__cta-apply-now-paragraph {
+  color: black;
+  text-align: left;
+  width: 75%;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.hummer-landing-page__info {
+  display: flex;
+}
+
+
+.hummer-landing-page__image-row-image-container {
+    margin: 20px 60px 0px 130px;
+}
+
+.hummer-landing-page__info-image-row {
+    background-color: #F2F2F2;
+}
+
+.hummer-landing-page__image-row-text-container{
+   flex-basis: 50%;
+}
+
+.hummer-landing-page__image-row-text {
+    text-align: left;
+}
+
+.hummer-landing-page__image-row-image-container {
+
+}
+
+.hummer-landing-page__image-row-image{
+    transform: scale(.9)
 }

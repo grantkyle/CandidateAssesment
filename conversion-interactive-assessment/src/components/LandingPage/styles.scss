@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  height: 1200px;
+  height: 100%;
 }
 
 .hummer-landing-page__rows {
@@ -10,7 +10,7 @@
   color: #ffffff;
 }
 
-.hummer-landing-page__hero {
+.hummer-landing-page__hero-row {
   background-image: url("../background/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -51,13 +51,13 @@
 
 .hummer-landing-page__cta-text {
   color: #8b0000;
-  margin: 15px 60px 0px 130px;
+  margin: 20px 60px 0px 120px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
   text-align: left;
-  font-size: 42px;
+  font-size: 46px;
   font-style: italic;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .hummer-landing-page__cta-text-container {
@@ -66,27 +66,26 @@
 
 .hummer-landing-page__cta-apply-now-button-row {
   display: flex;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .hummer-landing-page__cta-apply-now-button-container {
   width: 275px;
-  margin-right: 5px;
+  margin-right: 2px;
+  display: flex;
 }
 
 .hummer-landing-page__cta-phone-number-button-container {
   width: 275px;
+  display: flex;
 }
 
 .hummer-landing-page__cta-apply-now-search-jobs-button-row {
-  margin-top: -15px;
+  margin-top: -18px;
 }
 
 .hummer-landing-page__cta-search-jobs-button-container {
   width: 555px;
-}
-
-.hummer-landing-page__cta-apply-now-paragraph-row {
 }
 
 .hummer-landing-page__cta-apply-now-paragraph {
@@ -97,31 +96,72 @@
   margin-top: 15px;
 }
 
-.hummer-landing-page__info {
+.hummer-landing-page__info-row {
   display: flex;
+  background-color: #f2f2f2;
 }
 
-
-.hummer-landing-page__image-row-image-container {
-    margin: 20px 60px 0px 130px;
+.hummer-landing-page__info-row-image-container {
+  flex-basis: 50%;
 }
 
-.hummer-landing-page__info-image-row {
-    background-color: #F2F2F2;
-}
-
-.hummer-landing-page__image-row-text-container{
-   flex-basis: 50%;
+.hummer-landing-page__info-row-image {
+  margin: 30px 60px 0px 120px;
 }
 
 .hummer-landing-page__image-row-text {
-    text-align: left;
+  text-align: left;
 }
 
-.hummer-landing-page__image-row-image-container {
-
+.hummer-landing-page__info-row-text-container {
+  flex-basis: 50%;
 }
 
-.hummer-landing-page__image-row-image{
-    transform: scale(.9)
+.hummer-landing-page__info-row-arrow-row {
+  height: 60px;
+  position: relative;
+}
+
+.hummer-landing-page__info-row-text {
+  color: black;
+  text-align: left;
+  width: 75%;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+.hummer-landing-page__signup-row {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.hummer-landing-page__signup-row-form-container {
+  background-color: #000000;
+
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.hummer-landing-page__signup-row-cta {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  padding-bottom: 40px;
+}
+
+.hummer-landing-page__privacy-policy-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  background-color: gray;
+}
+
+.hummer-landing-page__signup-row-input {
+  margin: 0 15px 0 15px;
+  width: 365px;
 }

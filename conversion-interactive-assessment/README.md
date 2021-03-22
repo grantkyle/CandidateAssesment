@@ -24,3 +24,9 @@ npm run start
 
 ### Note
 This project was built on and optimized to mockup specs for a 13-inch Macbook Pro, and is mobile responsive for devices the size of iPhone 5 all the way to iPad Pro.
+
+### Screenshots
+
+![Desktop](hummer-landing-page-screenshot.png)
+
+![Mobile](hummer-landing-page-mobile-screenshot.png) 

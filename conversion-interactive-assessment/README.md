@@ -27,6 +27,6 @@ This project was built on and optimized to mockup specs for a 13-inch Macbook Pr
 
 ### Screenshots
 
-![Desktop](./hummer-landing-page-screenshot.png)
+![Desktop](hummer-landing-page-screenshot.png)
 
-![Mobile](./hummer-landing-page-mobile-screenshot.png) 
+![Mobile](hummer-landing-page-mobile-screenshot.png) 

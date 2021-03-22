@@ -1,4 +1,3 @@
-![screencapture-localhost-3000-2021-03-21-20_01_07](https://user-images.githubusercontent.com/56657779/111929033-47824280-8a83-11eb-9ab7-cb32e7bf56e5.png)
 # Hummer Landing Page
 
 This is a landing page for a trucking business, built with the React library for a few main reasons, but mainly because it is scalable, responsive and fast and, perhaps most importantly, it is surrounded by a huge (and growing) ecosystem, making the application's potential limitless. 
@@ -28,10 +27,8 @@ This project was built on and optimized to mockup specs for a 13-inch Macbook Pr
 
 ### Screenshots
 
-Desktop
 ![screencapture-localhost-3000-2021-03-21-19_58_57](https://user-images.githubusercontent.com/56657779/111929069-608af380-8a83-11eb-9656-36cfa9feca3b.png)
 
-Mobile
 ![screencapture-localhost-3000-2021-03-21-20_01_07](https://user-images.githubusercontent.com/56657779/111929087-684a9800-8a83-11eb-96ec-ee478e9317bb.png)
 
 

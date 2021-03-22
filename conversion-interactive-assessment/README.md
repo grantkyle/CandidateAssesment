@@ -23,4 +23,4 @@ npm run start
 - Enjoy!
 
 ### Note
-This project was built on and optimized to mockup specs for a 13-inch Macbook Pro
+This project was built on and optimized to mockup specs for a 13-inch Macbook Pro, and is mobile responsive for devices the size of iPhone 5 all the way to iPad Pro.

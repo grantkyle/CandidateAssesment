@@ -114,9 +114,32 @@
   width: 100%;
 }
 
-.hummer-landing-page__info-row-arrow-row {
+.hummer-landing-page__info-row-arrow {
   height: 60px;
   position: relative;
+
+  &:hover {
+    padding-top: 10px;
+  }
+}
+
+.hidden-div {
+  height: 60px;
+  color: #8b0000;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 40px;
+  font-style: italic;
+  background-color: #f2f2f2;
+  justify-content: center;
+  display: none;
+}
+
+.hummer-landing-page__info-row-arrow:hover + .hidden-div {
+  display: block;
+  text-align: center;
 }
 
 .hummer-landing-page__info-row-text {
@@ -212,11 +235,6 @@
   }
 
   .hummer-landing-page__apply-now-button {
-    width: 100%;
-    margin: 1px;
-  }
-
-  .hummer-landing-page__apply-now-button:hover {
     width: 100%;
     margin: 1px;
   }

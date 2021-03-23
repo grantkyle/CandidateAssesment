@@ -130,7 +130,9 @@ const LandingPage = () => {
             className="fas fa-3x fa-chevron-down"
             style={{ color: "#8b0000", paddingTop: "10px" }}
           ></i>
+          
         </div>
+        <div className="hidden-div">Apply Now!!!</div>
       </div>
       <div className="hummer-landing-page__signup-row">
         <div className="hummer-landing-page__signup-row-cta">

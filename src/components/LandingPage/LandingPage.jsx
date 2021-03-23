@@ -1,8 +1,22 @@
 import React from "react";
+import Cookies from "universal-cookie";
 import { Button, Form } from "react-bootstrap";
 import "./styles.scss";
 
 const LandingPage = () => {
+  const cookies = new Cookies();
+
+  const days = 30;
+  const expiration = new Date();
+  expiration.setTime(expiration.getTime() + days * 24 * 60 * 60 * 1000);
+  cookies.set(
+    "hummerCookie",
+    "Hello CIA!",
+    { path: "/" },
+    { expiration: expiration }
+  );
+  console.log(cookies.get("hummerCookie"), "Cookie expires on " + expiration);
+
   return (
     <div className="hummer-landing-page__container">
       <div className="hummer-landing-page__hero-row">
@@ -20,7 +34,7 @@ const LandingPage = () => {
           variant="secondary"
           className="hummer-landing-page__quick-form-button"
         >
-          QUICK FORM&nbsp; <i class="far fa-thumbs-up"></i>
+          QUICK FORM&nbsp; <i className="far fa-thumbs-up"></i>
         </Button>
       </div>
 
@@ -31,10 +45,9 @@ const LandingPage = () => {
             You Will Be!
           </p>
         </div>
-        <div class="hummer-landing-page__cta-row-button-and-text-container">
+        <div className="hummer-landing-page__cta-row-button-and-text-container">
           <Button
             variant="danger"
-            button
             className="hummer-landing-page__apply-now-button"
           >
             APPLY NOW&nbsp;
@@ -52,7 +65,7 @@ const LandingPage = () => {
             variant="dark"
             className="hummer-landing-page__search-jobs-button"
           >
-            SEARCH JOBS BY AREA&nbsp; <i class="fas fa-search"></i>
+            SEARCH JOBS BY AREA&nbsp; <i className="fas fa-search"></i>
           </Button>
           <div className="hummer-landing-page__apply-now-paragraph-container">
             <p className="hummer-landing-page__apply-now-paragraph">
@@ -77,8 +90,8 @@ const LandingPage = () => {
               alt="hummer-trucker"
             ></img>
           </div>
-          <div class="hummer-landing-page__info-row-text-container">
-            <p className="hummer-landing-page__info-row-text">
+          <div className="hummer-landing-page__info-row-text-container">
+            <div className="hummer-landing-page__info-row-text">
               <b>
                 Hummer's CDL A Scheduled Regional 5 nights-out truck driver
                 positions offer:
@@ -109,12 +122,12 @@ const LandingPage = () => {
                   Benefits, bonus programs and too many advantages to list here!
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
         </div>
         <div className="hummer-landing-page__info-row-arrow">
           <i
-            class="fas fa-3x fa-chevron-down"
+            className="fas fa-3x fa-chevron-down"
             style={{ color: "#8b0000", paddingTop: "10px" }}
           ></i>
         </div>

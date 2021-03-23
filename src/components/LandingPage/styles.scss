@@ -57,7 +57,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
   text-align: left;
-  font-size: 46px;
+  font-size: 52px;
   font-style: italic;
   line-height: 1.1;
 }
@@ -212,6 +212,11 @@
   }
 
   .hummer-landing-page__apply-now-button {
+    width: 100%;
+    margin: 1px;
+  }
+
+  .hummer-landing-page__apply-now-button:hover {
     width: 100%;
     margin: 1px;
   }

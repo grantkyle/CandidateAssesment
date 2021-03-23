@@ -2,7 +2,7 @@
 
 This is a landing page for a trucking business, built with the React library for a few main reasons, but mainly because it is scalable, responsive and fast and, perhaps most importantly, it is surrounded by a huge (and growing) ecosystem, making the application's potential limitless. 
 
-The only dependencies I used were react-bootstrap (a killer library for reusable components), and the font-awesome npm.
+The only dependencies I installed and used were react-bootstrap (a killer library for reusable components), universal-cookie and the font-awesome npm.
 ## Instructions for use
 
 - Go to this [this](https://github.com/grantkyle/CandidateAssesment/) link

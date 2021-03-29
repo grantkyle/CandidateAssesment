@@ -25,6 +25,9 @@ npm run start
 ### Note
 This project was built on and optimized to mockup specs for a 13-inch Macbook Pro, and is mobile responsive for devices the size of iPhone 5 all the way to iPad Pro.
 
+### Deployed Application
+The app is deployed on Heroku and can be viewed [here](https://cryptic-wave-55237.herokuapp.com/) 
+
 ### Screenshots
 
 ![screencapture-localhost-3000-2021-03-21-19_58_57](https://user-images.githubusercontent.com/56657779/111929069-608af380-8a83-11eb-9656-36cfa9feca3b.png)
